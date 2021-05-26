@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [LoginSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser_type" value="System.getProperty(&#039;browser_type&#039;)"/>
+  <test thread-count="1" name="Test">
+    <parameter name="browser_type" value="System.getProperty(&#039;browser_type&#039;)"/>
+    <classes>
+      <class name="Tests.TestLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="tests" name="Test(failed)">
+    <parameter name="browser_type" value="System.getProperty(&#039;browser_type&#039;)"/>
+    <classes>
+      <class name="Tests.TestLogin">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="loginSuccessfully" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Tests.TestLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

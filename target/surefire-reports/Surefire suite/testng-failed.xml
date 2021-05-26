@@ -7,14 +7,4 @@
       <class name="Tests.TestLogin"/>
     </classes>
   </test> <!-- Surefire test -->
-  <test name="Surefire test(failed)">
-    <classes>
-      <class name="Tests.TestLogin">
-        <methods>
-          <include name="loginSuccessfully"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- Tests.TestLogin -->
-    </classes>
-  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

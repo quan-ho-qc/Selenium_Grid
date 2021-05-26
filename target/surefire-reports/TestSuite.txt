@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.531 s <<< FAILURE! - in TestSuite
-beforeMethod(Tests.TestLogin)  Time elapsed: 0.024 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "drivers.Hooks.driver" is null
-	at Tests.TestLogin.beforeMethod(TestLogin.java:24)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.311 s - in TestSuite

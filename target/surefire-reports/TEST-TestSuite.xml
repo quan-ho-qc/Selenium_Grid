@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.531" tests="4" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.311" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="browser_type" value=""/>
+    <property name="browser_type" value="chrome"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\quan.ho\eclipse-workspace\QuanHoVan_Selenium_Grid\target\test-classes;C:\Users\quan.ho\eclipse-workspace\QuanHoVan_Selenium_Grid\target\classes;C:\Users\quan.ho\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\quan.ho\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\quan.ho\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\quan.ho\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\quan.ho\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\quan.ho\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\quan.ho\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\quan.ho\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\quan.ho\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\quan.ho\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\quan.ho\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\quan.ho\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\quan.ho\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -11,12 +11,13 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="suiteXmlFile" value="src/test/resources/testng.xml"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="16"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
-    <property name="sun.java.command" value="C:\Users\quan.ho\AppData\Local\Temp\surefire8409556967694011801\surefirebooter12842349338244477097.jar C:\Users\quan.ho\AppData\Local\Temp\surefire8409556967694011801 2021-05-22T00-36-58_249-jvmRun1 surefire17019991724998895620tmp surefire_017538398112826355795tmp"/>
+    <property name="sun.java.command" value="C:\Users\quan.ho\AppData\Local\Temp\surefire1580723450808552198\surefirebooter9917134917387874932.jar C:\Users\quan.ho\AppData\Local\Temp\surefire1580723450808552198 2021-05-26T22-26-58_193-jvmRun1 surefire15834354912444472637tmp surefire_016023582665906762104tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\quan.ho\eclipse-workspace\QuanHoVan_Selenium_Grid\target\test-classes;C:\Users\quan.ho\eclipse-workspace\QuanHoVan_Selenium_Grid\target\classes;C:\Users\quan.ho\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\quan.ho\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\quan.ho\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\quan.ho\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\quan.ho\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\quan.ho\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\quan.ho\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\quan.ho\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\quan.ho\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\quan.ho\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\quan.ho\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\quan.ho\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\quan.ho\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\quan.ho\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\quan.ho\AppData\Local\Temp\surefire8409556967694011801\surefirebooter12842349338244477097.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\quan.ho\AppData\Local\Temp\surefire1580723450808552198\surefirebooter9917134917387874932.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16+36-2231"/>
@@ -56,16 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="f" classname="Tests.TestHomePage" time="0.007"/>
-  <testcase name="beforeMethod" classname="Tests.TestLogin" time="0.024">
-    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;drivers.Hooks.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "drivers.Hooks.driver" is null
-	at Tests.TestLogin.beforeMethod(TestLogin.java:24)
-</failure>
-  </testcase>
-  <testcase name="loginSuccessfully" classname="Tests.TestLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterMethod" classname="Tests.TestLogin" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="loginSuccessfully" classname="Tests.TestLogin" time="1.963"/>
+  <testcase name="loginSuccessfully" classname="Tests.TestLogin" time="2"/>
 </testsuite>

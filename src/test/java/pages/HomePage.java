@@ -30,9 +30,9 @@ public class HomePage {
     public String getLbGreeting() {
         return waitUntilvisibilityOfElement(lbGreeting).getText();
     }
-//    
-//    public String getTxtReadPostTitle() {
-//        return waitUntilvisibilityOfElement(txtReadPostTitle).getText();
-//    }
+
+    public String getTxtReadPostTitle() {
+        return waitUntilvisibilityOfElement(txtReadPostTitle).getText();
+    }
 
 }
